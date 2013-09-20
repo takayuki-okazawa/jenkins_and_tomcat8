@@ -1,0 +1,10 @@
+9 20, 2013 1:28:06 午前 hudson.model.AsyncPeriodicWork$1 run
+情報: Started Fingerprint cleanup
+9 20, 2013 1:28:06 午前 hudson.model.FingerprintCleanupThread execute
+情報: Cleaned up 0 records
+9 20, 2013 1:28:06 午前 hudson.model.AsyncPeriodicWork$1 run
+情報: Finished Fingerprint cleanup. 1 ms
+9 20, 2013 10:22:10 午前 hudson.model.AsyncPeriodicWork$1 run
+情報: Started Workspace clean-up
+9 20, 2013 10:22:11 午前 hudson.model.AsyncPeriodicWork$1 run
+情報: Finished Workspace clean-up. 328 ms
