@@ -9259,3 +9259,2437 @@ Jenkins home directory: /Users/okazawa/.jenkins found at: $user.home/.jenkins
 情報: Started Workspace clean-up
 9 20, 2013 10:22:11 午前 hudson.model.AsyncPeriodicWork$1 run
 情報: Finished Workspace clean-up. 328 ms
+9 20, 2013 1:05:37 午後 hudson.model.UpdateSite$Plugin deploy
+WARNING: Adding dependent install of git for plugin git-server
+9 20, 2013 1:05:37 午後 hudson.model.UpdateSite$Plugin deploy
+WARNING: Adding dependent install of git-client for plugin git
+9 20, 2013 1:05:37 午後 hudson.model.UpdateSite$Plugin deploy
+WARNING: Adding dependent install of ssh-credentials for plugin git-client
+9 20, 2013 1:05:37 午後 hudson.model.UpdateSite$Plugin deploy
+WARNING: Adding dependent install of credentials for plugin ssh-credentials
+9 20, 2013 1:05:37 午後 hudson.model.UpdateSite$Plugin deploy
+WARNING: Adding dependent install of ssh-agent for plugin git-client
+9 20, 2013 1:05:37 午後 hudson.model.UpdateSite$Plugin deploy
+WARNING: Dependent install of ssh-credentials for plugin ssh-agent already added, skipping
+9 20, 2013 1:05:37 午後 hudson.model.UpdateSite$Plugin deploy
+WARNING: Dependent install of credentials for plugin ssh-agent already added, skipping
+9 20, 2013 1:05:37 午後 hudson.model.UpdateSite$Plugin deploy
+WARNING: Dependent install of ssh-credentials for plugin git-client already added, skipping
+9 20, 2013 1:05:37 午後 hudson.model.UpdateSite$Plugin deploy
+WARNING: Dependent install of ssh-agent for plugin git-client already added, skipping
+9 20, 2013 1:05:40 午後 hudson.model.UpdateCenter$DownloadJob run
+情報: Starting the installation of GitHub API Plugin on behalf of anonymous
+9 20, 2013 1:05:41 午後 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+情報: Downloading GitHub API Plugin
+9 20, 2013 1:05:44 午後 hudson.PluginManager dynamicLoad
+情報: Attempting to dynamic load /Users/okazawa/.jenkins/plugins/github-api.jpi
+9 20, 2013 1:05:44 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Started initialization
+9 20, 2013 1:05:44 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Listed all plugins
+9 20, 2013 1:05:44 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Prepared all plugins
+9 20, 2013 1:05:44 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Started all plugins
+9 20, 2013 1:05:44 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Augmented all extensions
+9 20, 2013 1:05:44 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Loaded all jobs
+9 20, 2013 1:05:44 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Completed initialization
+9 20, 2013 1:05:44 午後 hudson.PluginManager dynamicLoad
+情報: Plugin github-api dynamically installed
+9 20, 2013 1:05:44 午後 hudson.model.UpdateCenter$DownloadJob run
+情報: Installation successful: GitHub API Plugin
+9 20, 2013 1:05:44 午後 hudson.model.UpdateCenter$DownloadJob run
+情報: Starting the installation of Credentials Plugin on behalf of anonymous
+9 20, 2013 1:05:45 午後 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+情報: Downloading Credentials Plugin
+9 20, 2013 1:05:46 午後 hudson.PluginManager dynamicLoad
+情報: Attempting to dynamic load /Users/okazawa/.jenkins/plugins/credentials.jpi
+9 20, 2013 1:05:48 午後 hudson.model.UpdateCenter$DownloadJob run
+情報: Starting the installation of SSH Credentials Plugin on behalf of anonymous
+9 20, 2013 1:05:49 午後 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+情報: Downloading SSH Credentials Plugin
+9 20, 2013 1:05:49 午後 hudson.PluginManager dynamicLoad
+情報: Attempting to dynamic load /Users/okazawa/.jenkins/plugins/ssh-credentials.jpi
+9 20, 2013 1:05:50 午後 hudson.model.UpdateCenter$DownloadJob run
+情報: Starting the installation of SSH Agent Plugin on behalf of anonymous
+9 20, 2013 1:05:50 午後 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+情報: Downloading SSH Agent Plugin
+9 20, 2013 1:05:59 午後 hudson.PluginManager dynamicLoad
+情報: Attempting to dynamic load /Users/okazawa/.jenkins/plugins/ssh-agent.jpi
+9 20, 2013 1:05:59 午後 hudson.ExtensionFinder$Sezpoz _find
+WARNING: Failed to load com.cloudbees.plugins.credentials.CredentialsStoreAction$DomainWrapper$DescriptorImpl
+java.lang.InstantiationException: /Users/okazawa/.jenkins/plugins/credentials/WEB-INF/lib/classes.jar might need to be rebuilt: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.CredentialsStoreAction$DomainWrapper$DescriptorImpl
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:144)
+	at hudson.ExtensionFinder$Sezpoz._find(ExtensionFinder.java:628)
+	at hudson.ExtensionFinder$Sezpoz.access$800(ExtensionFinder.java:555)
+	at hudson.ExtensionFinder$Sezpoz$1.find(ExtensionFinder.java:599)
+	at hudson.ExtensionFinder$GuiceFinder.refresh(ExtensionFinder.java:331)
+	at jenkins.model.Jenkins.refreshExtensions(Jenkins.java:2123)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:410)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:1310)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.CredentialsStoreAction$DomainWrapper$DescriptorImpl
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:964)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 14 more
+
+9 20, 2013 1:05:59 午後 hudson.ExtensionFinder$Sezpoz _find
+WARNING: Failed to load com.cloudbees.plugins.credentials.CredentialsStoreAction$CredentialsWrapper$DescriptorImpl
+java.lang.InstantiationException: /Users/okazawa/.jenkins/plugins/credentials/WEB-INF/lib/classes.jar might need to be rebuilt: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.CredentialsStoreAction$CredentialsWrapper$DescriptorImpl
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:144)
+	at hudson.ExtensionFinder$Sezpoz._find(ExtensionFinder.java:628)
+	at hudson.ExtensionFinder$Sezpoz.access$800(ExtensionFinder.java:555)
+	at hudson.ExtensionFinder$Sezpoz$1.find(ExtensionFinder.java:599)
+	at hudson.ExtensionFinder$GuiceFinder.refresh(ExtensionFinder.java:331)
+	at jenkins.model.Jenkins.refreshExtensions(Jenkins.java:2123)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:410)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:1310)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.CredentialsStoreAction$CredentialsWrapper$DescriptorImpl
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:964)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 14 more
+
+9 20, 2013 1:05:59 午後 hudson.ExtensionFinder$Sezpoz _find
+WARNING: Failed to load com.cloudbees.plugins.credentials.SystemCredentialsProvider$UserFacingAction
+java.lang.InstantiationException: /Users/okazawa/.jenkins/plugins/credentials/WEB-INF/lib/classes.jar might need to be rebuilt: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.SystemCredentialsProvider$UserFacingAction
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:144)
+	at hudson.ExtensionFinder$Sezpoz._find(ExtensionFinder.java:628)
+	at hudson.ExtensionFinder$Sezpoz.access$800(ExtensionFinder.java:555)
+	at hudson.ExtensionFinder$Sezpoz$1.find(ExtensionFinder.java:599)
+	at hudson.ExtensionFinder$GuiceFinder.refresh(ExtensionFinder.java:331)
+	at jenkins.model.Jenkins.refreshExtensions(Jenkins.java:2123)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:410)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:1310)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.SystemCredentialsProvider$UserFacingAction
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:964)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 14 more
+
+9 20, 2013 1:05:59 午後 hudson.ExtensionFinder$Sezpoz _find
+WARNING: Failed to load com.cloudbees.plugins.credentials.domains.SchemeSpecification$DescriptorImpl
+java.lang.InstantiationException: /Users/okazawa/.jenkins/plugins/credentials/WEB-INF/lib/classes.jar might need to be rebuilt: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.domains.SchemeSpecification$DescriptorImpl
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:144)
+	at hudson.ExtensionFinder$Sezpoz._find(ExtensionFinder.java:628)
+	at hudson.ExtensionFinder$Sezpoz.access$800(ExtensionFinder.java:555)
+	at hudson.ExtensionFinder$Sezpoz$1.find(ExtensionFinder.java:599)
+	at hudson.ExtensionFinder$GuiceFinder.refresh(ExtensionFinder.java:331)
+	at jenkins.model.Jenkins.refreshExtensions(Jenkins.java:2123)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:410)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:1310)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.domains.SchemeSpecification$DescriptorImpl
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:964)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 14 more
+
+9 20, 2013 1:05:59 午後 hudson.ExtensionFinder$Sezpoz _find
+WARNING: Failed to load com.cloudbees.plugins.credentials.impl.CertificateCredentialsImpl$DescriptorImpl
+java.lang.InstantiationException: /Users/okazawa/.jenkins/plugins/credentials/WEB-INF/lib/classes.jar might need to be rebuilt: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.impl.CertificateCredentialsImpl$DescriptorImpl
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:144)
+	at hudson.ExtensionFinder$Sezpoz._find(ExtensionFinder.java:628)
+	at hudson.ExtensionFinder$Sezpoz.access$800(ExtensionFinder.java:555)
+	at hudson.ExtensionFinder$Sezpoz$1.find(ExtensionFinder.java:599)
+	at hudson.ExtensionFinder$GuiceFinder.refresh(ExtensionFinder.java:331)
+	at jenkins.model.Jenkins.refreshExtensions(Jenkins.java:2123)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:410)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:1310)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.impl.CertificateCredentialsImpl$DescriptorImpl
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:964)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 14 more
+
+9 20, 2013 1:05:59 午後 hudson.ExtensionFinder$Sezpoz _find
+WARNING: Failed to load com.cloudbees.plugins.credentials.impl.CertificateCredentialsImpl$FileOnMasterKeyStoreSource$DescriptorImpl
+java.lang.InstantiationException: /Users/okazawa/.jenkins/plugins/credentials/WEB-INF/lib/classes.jar might need to be rebuilt: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.impl.CertificateCredentialsImpl$FileOnMasterKeyStoreSource$DescriptorImpl
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:144)
+	at hudson.ExtensionFinder$Sezpoz._find(ExtensionFinder.java:628)
+	at hudson.ExtensionFinder$Sezpoz.access$800(ExtensionFinder.java:555)
+	at hudson.ExtensionFinder$Sezpoz$1.find(ExtensionFinder.java:599)
+	at hudson.ExtensionFinder$GuiceFinder.refresh(ExtensionFinder.java:331)
+	at jenkins.model.Jenkins.refreshExtensions(Jenkins.java:2123)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:410)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:1310)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.impl.CertificateCredentialsImpl$FileOnMasterKeyStoreSource$DescriptorImpl
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:964)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 14 more
+
+9 20, 2013 1:05:59 午後 hudson.ExtensionFinder$Sezpoz _find
+WARNING: Failed to load com.cloudbees.plugins.credentials.impl.CertificateCredentialsImpl$UploadedKeyStoreSource$DescriptorImpl
+java.lang.InstantiationException: /Users/okazawa/.jenkins/plugins/credentials/WEB-INF/lib/classes.jar might need to be rebuilt: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.impl.CertificateCredentialsImpl$UploadedKeyStoreSource$DescriptorImpl
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:144)
+	at hudson.ExtensionFinder$Sezpoz._find(ExtensionFinder.java:628)
+	at hudson.ExtensionFinder$Sezpoz.access$800(ExtensionFinder.java:555)
+	at hudson.ExtensionFinder$Sezpoz$1.find(ExtensionFinder.java:599)
+	at hudson.ExtensionFinder$GuiceFinder.refresh(ExtensionFinder.java:331)
+	at jenkins.model.Jenkins.refreshExtensions(Jenkins.java:2123)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:410)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:1310)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.impl.CertificateCredentialsImpl$UploadedKeyStoreSource$DescriptorImpl
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:964)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 14 more
+
+9 20, 2013 1:05:59 午後 hudson.ExtensionFinder$Sezpoz _find
+WARNING: Failed to load com.cloudbees.plugins.credentials.domains.HostnamePortSpecification$DescriptorImpl
+java.lang.InstantiationException: /Users/okazawa/.jenkins/plugins/credentials/WEB-INF/lib/classes.jar might need to be rebuilt: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.domains.HostnamePortSpecification$DescriptorImpl
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:144)
+	at hudson.ExtensionFinder$Sezpoz._find(ExtensionFinder.java:628)
+	at hudson.ExtensionFinder$Sezpoz.access$800(ExtensionFinder.java:555)
+	at hudson.ExtensionFinder$Sezpoz$1.find(ExtensionFinder.java:599)
+	at hudson.ExtensionFinder$GuiceFinder.refresh(ExtensionFinder.java:331)
+	at jenkins.model.Jenkins.refreshExtensions(Jenkins.java:2123)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:410)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:1310)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.domains.HostnamePortSpecification$DescriptorImpl
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:964)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 14 more
+
+9 20, 2013 1:05:59 午後 hudson.ExtensionFinder$Sezpoz _find
+WARNING: Failed to load com.cloudbees.plugins.credentials.domains.HostnameSpecification$DescriptorImpl
+java.lang.InstantiationException: /Users/okazawa/.jenkins/plugins/credentials/WEB-INF/lib/classes.jar might need to be rebuilt: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.domains.HostnameSpecification$DescriptorImpl
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:144)
+	at hudson.ExtensionFinder$Sezpoz._find(ExtensionFinder.java:628)
+	at hudson.ExtensionFinder$Sezpoz.access$800(ExtensionFinder.java:555)
+	at hudson.ExtensionFinder$Sezpoz$1.find(ExtensionFinder.java:599)
+	at hudson.ExtensionFinder$GuiceFinder.refresh(ExtensionFinder.java:331)
+	at jenkins.model.Jenkins.refreshExtensions(Jenkins.java:2123)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:410)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:1310)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.domains.HostnameSpecification$DescriptorImpl
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:964)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 14 more
+
+9 20, 2013 1:05:59 午後 hudson.ExtensionFinder$Sezpoz _find
+WARNING: Failed to load com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl$DescriptorImpl
+java.lang.InstantiationException: /Users/okazawa/.jenkins/plugins/credentials/WEB-INF/lib/classes.jar might need to be rebuilt: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl$DescriptorImpl
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:144)
+	at hudson.ExtensionFinder$Sezpoz._find(ExtensionFinder.java:628)
+	at hudson.ExtensionFinder$Sezpoz.access$800(ExtensionFinder.java:555)
+	at hudson.ExtensionFinder$Sezpoz$1.find(ExtensionFinder.java:599)
+	at hudson.ExtensionFinder$GuiceFinder.refresh(ExtensionFinder.java:331)
+	at jenkins.model.Jenkins.refreshExtensions(Jenkins.java:2123)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:410)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:1310)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl$DescriptorImpl
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:964)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 14 more
+
+9 20, 2013 1:05:59 午後 hudson.ExtensionFinder$GuiceFinder$SezpozModule configure
+WARNING: Failed to load com.cloudbees.plugins.credentials.CredentialsStoreAction$DomainWrapper$DescriptorImpl
+java.lang.InstantiationException: /Users/okazawa/.jenkins/plugins/credentials/WEB-INF/lib/classes.jar might need to be rebuilt: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.CredentialsStoreAction$DomainWrapper$DescriptorImpl
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:144)
+	at hudson.ExtensionFinder$GuiceFinder$SezpozModule.configure(ExtensionFinder.java:504)
+	at com.google.inject.AbstractModule.configure(AbstractModule.java:62)
+	at com.google.inject.spi.Elements$RecordingBinder.install(Elements.java:229)
+	at com.google.inject.spi.Elements.getElements(Elements.java:103)
+	at com.google.inject.internal.InjectorShell$Builder.build(InjectorShell.java:136)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:104)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:216)
+	at hudson.ExtensionFinder$GuiceFinder.refresh(ExtensionFinder.java:336)
+	at jenkins.model.Jenkins.refreshExtensions(Jenkins.java:2123)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:410)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:1310)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.CredentialsStoreAction$DomainWrapper$DescriptorImpl
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:964)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 18 more
+
+9 20, 2013 1:05:59 午後 hudson.ExtensionFinder$GuiceFinder$SezpozModule configure
+WARNING: Failed to load com.cloudbees.plugins.credentials.CredentialsStoreAction$CredentialsWrapper$DescriptorImpl
+java.lang.InstantiationException: /Users/okazawa/.jenkins/plugins/credentials/WEB-INF/lib/classes.jar might need to be rebuilt: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.CredentialsStoreAction$CredentialsWrapper$DescriptorImpl
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:144)
+	at hudson.ExtensionFinder$GuiceFinder$SezpozModule.configure(ExtensionFinder.java:504)
+	at com.google.inject.AbstractModule.configure(AbstractModule.java:62)
+	at com.google.inject.spi.Elements$RecordingBinder.install(Elements.java:229)
+	at com.google.inject.spi.Elements.getElements(Elements.java:103)
+	at com.google.inject.internal.InjectorShell$Builder.build(InjectorShell.java:136)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:104)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:216)
+	at hudson.ExtensionFinder$GuiceFinder.refresh(ExtensionFinder.java:336)
+	at jenkins.model.Jenkins.refreshExtensions(Jenkins.java:2123)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:410)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:1310)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.CredentialsStoreAction$CredentialsWrapper$DescriptorImpl
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:964)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 18 more
+
+9 20, 2013 1:05:59 午後 hudson.ExtensionFinder$GuiceFinder$SezpozModule configure
+WARNING: Failed to load com.cloudbees.plugins.credentials.SystemCredentialsProvider$UserFacingAction
+java.lang.InstantiationException: /Users/okazawa/.jenkins/plugins/credentials/WEB-INF/lib/classes.jar might need to be rebuilt: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.SystemCredentialsProvider$UserFacingAction
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:144)
+	at hudson.ExtensionFinder$GuiceFinder$SezpozModule.configure(ExtensionFinder.java:504)
+	at com.google.inject.AbstractModule.configure(AbstractModule.java:62)
+	at com.google.inject.spi.Elements$RecordingBinder.install(Elements.java:229)
+	at com.google.inject.spi.Elements.getElements(Elements.java:103)
+	at com.google.inject.internal.InjectorShell$Builder.build(InjectorShell.java:136)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:104)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:216)
+	at hudson.ExtensionFinder$GuiceFinder.refresh(ExtensionFinder.java:336)
+	at jenkins.model.Jenkins.refreshExtensions(Jenkins.java:2123)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:410)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:1310)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.SystemCredentialsProvider$UserFacingAction
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:964)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 18 more
+
+9 20, 2013 1:05:59 午後 hudson.ExtensionFinder$GuiceFinder$SezpozModule configure
+WARNING: Failed to load com.cloudbees.plugins.credentials.domains.SchemeSpecification$DescriptorImpl
+java.lang.InstantiationException: /Users/okazawa/.jenkins/plugins/credentials/WEB-INF/lib/classes.jar might need to be rebuilt: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.domains.SchemeSpecification$DescriptorImpl
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:144)
+	at hudson.ExtensionFinder$GuiceFinder$SezpozModule.configure(ExtensionFinder.java:504)
+	at com.google.inject.AbstractModule.configure(AbstractModule.java:62)
+	at com.google.inject.spi.Elements$RecordingBinder.install(Elements.java:229)
+	at com.google.inject.spi.Elements.getElements(Elements.java:103)
+	at com.google.inject.internal.InjectorShell$Builder.build(InjectorShell.java:136)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:104)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:216)
+	at hudson.ExtensionFinder$GuiceFinder.refresh(ExtensionFinder.java:336)
+	at jenkins.model.Jenkins.refreshExtensions(Jenkins.java:2123)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:410)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:1310)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.domains.SchemeSpecification$DescriptorImpl
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:964)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 18 more
+
+9 20, 2013 1:05:59 午後 hudson.ExtensionFinder$GuiceFinder$SezpozModule configure
+WARNING: Failed to load com.cloudbees.plugins.credentials.impl.CertificateCredentialsImpl$DescriptorImpl
+java.lang.InstantiationException: /Users/okazawa/.jenkins/plugins/credentials/WEB-INF/lib/classes.jar might need to be rebuilt: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.impl.CertificateCredentialsImpl$DescriptorImpl
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:144)
+	at hudson.ExtensionFinder$GuiceFinder$SezpozModule.configure(ExtensionFinder.java:504)
+	at com.google.inject.AbstractModule.configure(AbstractModule.java:62)
+	at com.google.inject.spi.Elements$RecordingBinder.install(Elements.java:229)
+	at com.google.inject.spi.Elements.getElements(Elements.java:103)
+	at com.google.inject.internal.InjectorShell$Builder.build(InjectorShell.java:136)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:104)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:216)
+	at hudson.ExtensionFinder$GuiceFinder.refresh(ExtensionFinder.java:336)
+	at jenkins.model.Jenkins.refreshExtensions(Jenkins.java:2123)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:410)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:1310)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.impl.CertificateCredentialsImpl$DescriptorImpl
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:964)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 18 more
+
+9 20, 2013 1:05:59 午後 hudson.ExtensionFinder$GuiceFinder$SezpozModule configure
+WARNING: Failed to load com.cloudbees.plugins.credentials.impl.CertificateCredentialsImpl$FileOnMasterKeyStoreSource$DescriptorImpl
+java.lang.InstantiationException: /Users/okazawa/.jenkins/plugins/credentials/WEB-INF/lib/classes.jar might need to be rebuilt: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.impl.CertificateCredentialsImpl$FileOnMasterKeyStoreSource$DescriptorImpl
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:144)
+	at hudson.ExtensionFinder$GuiceFinder$SezpozModule.configure(ExtensionFinder.java:504)
+	at com.google.inject.AbstractModule.configure(AbstractModule.java:62)
+	at com.google.inject.spi.Elements$RecordingBinder.install(Elements.java:229)
+	at com.google.inject.spi.Elements.getElements(Elements.java:103)
+	at com.google.inject.internal.InjectorShell$Builder.build(InjectorShell.java:136)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:104)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:216)
+	at hudson.ExtensionFinder$GuiceFinder.refresh(ExtensionFinder.java:336)
+	at jenkins.model.Jenkins.refreshExtensions(Jenkins.java:2123)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:410)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:1310)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.impl.CertificateCredentialsImpl$FileOnMasterKeyStoreSource$DescriptorImpl
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:964)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 18 more
+
+9 20, 2013 1:05:59 午後 hudson.ExtensionFinder$GuiceFinder$SezpozModule configure
+WARNING: Failed to load com.cloudbees.plugins.credentials.impl.CertificateCredentialsImpl$UploadedKeyStoreSource$DescriptorImpl
+java.lang.InstantiationException: /Users/okazawa/.jenkins/plugins/credentials/WEB-INF/lib/classes.jar might need to be rebuilt: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.impl.CertificateCredentialsImpl$UploadedKeyStoreSource$DescriptorImpl
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:144)
+	at hudson.ExtensionFinder$GuiceFinder$SezpozModule.configure(ExtensionFinder.java:504)
+	at com.google.inject.AbstractModule.configure(AbstractModule.java:62)
+	at com.google.inject.spi.Elements$RecordingBinder.install(Elements.java:229)
+	at com.google.inject.spi.Elements.getElements(Elements.java:103)
+	at com.google.inject.internal.InjectorShell$Builder.build(InjectorShell.java:136)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:104)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:216)
+	at hudson.ExtensionFinder$GuiceFinder.refresh(ExtensionFinder.java:336)
+	at jenkins.model.Jenkins.refreshExtensions(Jenkins.java:2123)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:410)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:1310)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.impl.CertificateCredentialsImpl$UploadedKeyStoreSource$DescriptorImpl
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:964)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 18 more
+
+9 20, 2013 1:05:59 午後 hudson.ExtensionFinder$GuiceFinder$SezpozModule configure
+WARNING: Failed to load com.cloudbees.plugins.credentials.domains.HostnamePortSpecification$DescriptorImpl
+java.lang.InstantiationException: /Users/okazawa/.jenkins/plugins/credentials/WEB-INF/lib/classes.jar might need to be rebuilt: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.domains.HostnamePortSpecification$DescriptorImpl
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:144)
+	at hudson.ExtensionFinder$GuiceFinder$SezpozModule.configure(ExtensionFinder.java:504)
+	at com.google.inject.AbstractModule.configure(AbstractModule.java:62)
+	at com.google.inject.spi.Elements$RecordingBinder.install(Elements.java:229)
+	at com.google.inject.spi.Elements.getElements(Elements.java:103)
+	at com.google.inject.internal.InjectorShell$Builder.build(InjectorShell.java:136)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:104)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:216)
+	at hudson.ExtensionFinder$GuiceFinder.refresh(ExtensionFinder.java:336)
+	at jenkins.model.Jenkins.refreshExtensions(Jenkins.java:2123)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:410)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:1310)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.domains.HostnamePortSpecification$DescriptorImpl
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:964)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 18 more
+
+9 20, 2013 1:05:59 午後 hudson.ExtensionFinder$GuiceFinder$SezpozModule configure
+WARNING: Failed to load com.cloudbees.plugins.credentials.domains.HostnameSpecification$DescriptorImpl
+java.lang.InstantiationException: /Users/okazawa/.jenkins/plugins/credentials/WEB-INF/lib/classes.jar might need to be rebuilt: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.domains.HostnameSpecification$DescriptorImpl
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:144)
+	at hudson.ExtensionFinder$GuiceFinder$SezpozModule.configure(ExtensionFinder.java:504)
+	at com.google.inject.AbstractModule.configure(AbstractModule.java:62)
+	at com.google.inject.spi.Elements$RecordingBinder.install(Elements.java:229)
+	at com.google.inject.spi.Elements.getElements(Elements.java:103)
+	at com.google.inject.internal.InjectorShell$Builder.build(InjectorShell.java:136)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:104)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:216)
+	at hudson.ExtensionFinder$GuiceFinder.refresh(ExtensionFinder.java:336)
+	at jenkins.model.Jenkins.refreshExtensions(Jenkins.java:2123)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:410)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:1310)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.domains.HostnameSpecification$DescriptorImpl
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:964)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 18 more
+
+9 20, 2013 1:05:59 午後 hudson.ExtensionFinder$GuiceFinder$SezpozModule configure
+WARNING: Failed to load com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl$DescriptorImpl
+java.lang.InstantiationException: /Users/okazawa/.jenkins/plugins/credentials/WEB-INF/lib/classes.jar might need to be rebuilt: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl$DescriptorImpl
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:144)
+	at hudson.ExtensionFinder$GuiceFinder$SezpozModule.configure(ExtensionFinder.java:504)
+	at com.google.inject.AbstractModule.configure(AbstractModule.java:62)
+	at com.google.inject.spi.Elements$RecordingBinder.install(Elements.java:229)
+	at com.google.inject.spi.Elements.getElements(Elements.java:103)
+	at com.google.inject.internal.InjectorShell$Builder.build(InjectorShell.java:136)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:104)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:216)
+	at hudson.ExtensionFinder$GuiceFinder.refresh(ExtensionFinder.java:336)
+	at jenkins.model.Jenkins.refreshExtensions(Jenkins.java:2123)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:410)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:1310)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl$DescriptorImpl
+	at hudson.PluginManager$UberClassLoader.findClass(PluginManager.java:964)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at net.java.sezpoz.IndexItem.element(IndexItem.java:134)
+	... 18 more
+
+9 20, 2013 1:05:59 午後 hudson.ExtensionFinder$GuiceFinder$SezpozModule configure
+WARNING: Failed to load com.cloudbees.jenkins.plugins.sshagent.SSHAgentBuildWrapper$DescriptorImpl
+java.lang.NoClassDefFoundError: com/cloudbees/plugins/credentials/common/AbstractIdCredentialsListBoxModel
+	at java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:2521)
+	at java.lang.Class.privateGetPublicMethods(Class.java:2641)
+	at java.lang.Class.getMethods(Class.java:1457)
+	at hudson.ExtensionFinder$GuiceFinder$SezpozModule.resolve(ExtensionFinder.java:484)
+	at hudson.ExtensionFinder$GuiceFinder$SezpozModule.configure(ExtensionFinder.java:511)
+	at com.google.inject.AbstractModule.configure(AbstractModule.java:62)
+	at com.google.inject.spi.Elements$RecordingBinder.install(Elements.java:229)
+	at com.google.inject.spi.Elements.getElements(Elements.java:103)
+	at com.google.inject.internal.InjectorShell$Builder.build(InjectorShell.java:136)
+	at com.google.inject.internal.InternalInjectorCreator.build(InternalInjectorCreator.java:104)
+	at com.google.inject.internal.InjectorImpl.createChildInjector(InjectorImpl.java:216)
+	at hudson.ExtensionFinder$GuiceFinder.refresh(ExtensionFinder.java:336)
+	at jenkins.model.Jenkins.refreshExtensions(Jenkins.java:2123)
+	at hudson.PluginManager.dynamicLoad(PluginManager.java:410)
+	at hudson.model.UpdateCenter$InstallationJob._run(UpdateCenter.java:1310)
+	at hudson.model.UpdateCenter$DownloadJob.run(UpdateCenter.java:1111)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.ClassNotFoundException: com.cloudbees.plugins.credentials.common.AbstractIdCredentialsListBoxModel
+	at hudson.ClassicPluginStrategy$DependencyClassLoader.findClass(ClassicPluginStrategy.java:594)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at org.apache.tools.ant.AntClassLoader.findBaseClass(AntClassLoader.java:1387)
+	at org.apache.tools.ant.AntClassLoader.loadClass(AntClassLoader.java:1080)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 23 more
+
+9 20, 2013 1:05:59 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Started initialization
+9 20, 2013 1:05:59 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Listed all plugins
+9 20, 2013 1:05:59 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Prepared all plugins
+9 20, 2013 1:05:59 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Started all plugins
+9 20, 2013 1:05:59 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Augmented all extensions
+9 20, 2013 1:05:59 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Loaded all jobs
+9 20, 2013 1:05:59 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Completed initialization
+9 20, 2013 1:05:59 午後 hudson.PluginManager dynamicLoad
+情報: Plugin ssh-agent dynamically installed
+9 20, 2013 1:05:59 午後 hudson.model.UpdateCenter$DownloadJob run
+情報: Installation successful: SSH Agent Plugin
+9 20, 2013 1:05:59 午後 hudson.model.UpdateCenter$DownloadJob run
+情報: Starting the installation of Git Client Plugin on behalf of anonymous
+9 20, 2013 1:06:00 午後 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+情報: Downloading Git Client Plugin
+9 20, 2013 1:06:03 午後 hudson.PluginManager dynamicLoad
+情報: Attempting to dynamic load /Users/okazawa/.jenkins/plugins/git-client.jpi
+9 20, 2013 1:06:04 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Started initialization
+9 20, 2013 1:06:04 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Listed all plugins
+9 20, 2013 1:06:04 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Prepared all plugins
+9 20, 2013 1:06:04 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Started all plugins
+9 20, 2013 1:06:04 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Augmented all extensions
+9 20, 2013 1:06:04 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Loaded all jobs
+9 20, 2013 1:06:04 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Completed initialization
+9 20, 2013 1:06:04 午後 hudson.PluginManager dynamicLoad
+情報: Plugin git-client dynamically installed
+9 20, 2013 1:06:04 午後 hudson.model.UpdateCenter$DownloadJob run
+情報: Installation successful: Git Client Plugin
+9 20, 2013 1:06:04 午後 hudson.model.UpdateCenter$DownloadJob run
+情報: Starting the installation of Git Plugin on behalf of anonymous
+9 20, 2013 1:06:05 午後 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+情報: Downloading Git Plugin
+9 20, 2013 1:06:10 午後 hudson.PluginManager dynamicLoad
+情報: Attempting to dynamic load /Users/okazawa/.jenkins/plugins/git.jpi
+9 20, 2013 1:06:11 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Started initialization
+9 20, 2013 1:06:11 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Listed all plugins
+9 20, 2013 1:06:11 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Prepared all plugins
+9 20, 2013 1:06:11 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Started all plugins
+9 20, 2013 1:06:11 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Augmented all extensions
+9 20, 2013 1:06:11 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Loaded all jobs
+9 20, 2013 1:06:11 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Completed initialization
+9 20, 2013 1:06:11 午後 hudson.PluginManager dynamicLoad
+情報: Plugin git dynamically installed
+9 20, 2013 1:06:11 午後 hudson.model.UpdateCenter$DownloadJob run
+情報: Installation successful: Git Plugin
+9 20, 2013 1:06:11 午後 hudson.model.UpdateCenter$DownloadJob run
+情報: Starting the installation of Git Server Plugin on behalf of anonymous
+9 20, 2013 1:06:12 午後 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+情報: Downloading Git Server Plugin
+9 20, 2013 1:06:15 午後 hudson.PluginManager dynamicLoad
+情報: Attempting to dynamic load /Users/okazawa/.jenkins/plugins/git-server.jpi
+9 20, 2013 1:06:15 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Started initialization
+9 20, 2013 1:06:15 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Listed all plugins
+9 20, 2013 1:06:15 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Prepared all plugins
+9 20, 2013 1:06:15 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Started all plugins
+9 20, 2013 1:06:15 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Augmented all extensions
+9 20, 2013 1:06:15 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Loaded all jobs
+9 20, 2013 1:06:15 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Completed initialization
+9 20, 2013 1:06:15 午後 hudson.PluginManager dynamicLoad
+情報: Plugin git-server dynamically installed
+9 20, 2013 1:06:15 午後 hudson.model.UpdateCenter$DownloadJob run
+情報: Installation successful: Git Server Plugin
+9 20, 2013 1:06:15 午後 hudson.model.UpdateCenter$DownloadJob run
+情報: Starting the installation of Git Client Plugin on behalf of anonymous
+9 20, 2013 1:06:16 午後 hudson.model.UpdateCenter$UpdateCenterConfiguration download
+情報: Downloading Git Client Plugin
+9 20, 2013 1:06:19 午後 hudson.PluginManager dynamicLoad
+情報: Attempting to dynamic load /Users/okazawa/.jenkins/plugins/git-client.jpi
+9 20, 2013 1:06:31 午後 hudson.model.UpdateCenter doSafeRestart
+情報: Scheduling Jenkins reboot
+9 20, 2013 1:06:31 午後 jenkins.model.Jenkins$23 run
+情報: Restart in 10 seconds
+9 20, 2013 1:06:41 午後 jenkins.model.Jenkins$23 run
+SEVERE: Restarting VM as requested by anonymous
+9 20, 2013 1:06:42 午後 hudson.PluginWrapper stop
+情報: Stopping mailer
+9 20, 2013 1:06:42 午後 hudson.PluginWrapper stop
+情報: Stopping external-monitor-job
+9 20, 2013 1:06:42 午後 hudson.PluginWrapper stop
+情報: Stopping ldap
+9 20, 2013 1:06:42 午後 hudson.PluginWrapper stop
+情報: Stopping pam-auth
+9 20, 2013 1:06:42 午後 hudson.PluginWrapper stop
+情報: Stopping ant
+9 20, 2013 1:06:42 午後 hudson.PluginWrapper stop
+情報: Stopping javadoc
+9 20, 2013 1:06:42 午後 hudson.PluginWrapper stop
+情報: Stopping credentials
+9 20, 2013 1:06:42 午後 hudson.PluginWrapper stop
+情報: Stopping cvs
+9 20, 2013 1:06:42 午後 hudson.PluginWrapper stop
+情報: Stopping maven-plugin
+9 20, 2013 1:06:42 午後 hudson.PluginWrapper stop
+情報: Stopping ssh-credentials
+9 20, 2013 1:06:42 午後 hudson.PluginWrapper stop
+情報: Stopping ssh-slaves
+9 20, 2013 1:06:42 午後 hudson.PluginWrapper stop
+情報: Stopping subversion
+9 20, 2013 1:06:42 午後 hudson.PluginWrapper stop
+情報: Stopping translation
+9 20, 2013 1:06:42 午後 hudson.PluginWrapper stop
+情報: Stopping github-api
+9 20, 2013 1:06:42 午後 hudson.PluginWrapper stop
+情報: Stopping ssh-agent
+9 20, 2013 1:06:42 午後 hudson.PluginWrapper stop
+情報: Stopping git-client
+9 20, 2013 1:06:42 午後 hudson.PluginWrapper stop
+情報: Stopping git
+9 20, 2013 1:06:42 午後 hudson.PluginWrapper stop
+情報: Stopping git-server
+9 20, 2013 1:06:43 午後 org.apache.catalina.core.AprLifecycleListener init
+情報: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /Users/okazawa/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+9 20, 2013 1:06:43 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["http-nio-8080"]
+9 20, 2013 1:06:43 午後 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+情報: Using a shared selector for servlet write/read
+9 20, 2013 1:06:43 午後 org.apache.coyote.AbstractProtocol init
+情報: Initializing ProtocolHandler ["ajp-nio-8009"]
+9 20, 2013 1:06:43 午後 org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+情報: Using a shared selector for servlet write/read
+9 20, 2013 1:06:43 午後 org.apache.catalina.startup.Catalina load
+情報: Initialization processed in 790 ms
+9 20, 2013 1:06:43 午後 org.apache.catalina.core.StandardService startInternal
+情報: サービス Catalina を起動します
+9 20, 2013 1:06:43 午後 org.apache.catalina.core.StandardEngine startInternal
+情報: Starting Servlet Engine: Apache Tomcat/8.0.0-RC1
+9 20, 2013 1:06:43 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /Users/okazawa/apache-tomcat-8.0.0-RC1/webapps/docs を配備します
+9 20, 2013 1:06:44 午後 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+情報: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [210] milliseconds.
+9 20, 2013 1:06:44 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /Users/okazawa/apache-tomcat-8.0.0-RC1/webapps/examples を配備します
+9 20, 2013 1:06:44 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /Users/okazawa/apache-tomcat-8.0.0-RC1/webapps/host-manager を配備します
+9 20, 2013 1:06:45 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /Users/okazawa/apache-tomcat-8.0.0-RC1/webapps/manager を配備します
+9 20, 2013 1:06:45 午後 org.apache.catalina.startup.HostConfig deployDirectory
+情報: Webアプリケーションディレクトリ /Users/okazawa/apache-tomcat-8.0.0-RC1/webapps/ROOT を配備します
+Jenkins home directory: /Users/okazawa/.jenkins found at: $user.home/.jenkins
+9 20, 2013 1:06:51 午後 org.apache.coyote.AbstractProtocol start
+情報: Starting ProtocolHandler ["http-nio-8080"]
+9 20, 2013 1:06:51 午後 org.apache.coyote.AbstractProtocol start
+情報: Starting ProtocolHandler ["ajp-nio-8009"]
+9 20, 2013 1:06:51 午後 org.apache.catalina.startup.Catalina start
+情報: Server startup in 7552 ms
+9 20, 2013 1:06:51 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Started initialization
+9 20, 2013 1:06:51 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Listed all plugins
+9 20, 2013 1:06:51 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Prepared all plugins
+9 20, 2013 1:06:51 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Started all plugins
+9 20, 2013 1:06:51 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Augmented all extensions
+9 20, 2013 1:06:55 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Loaded all jobs
+9 20, 2013 1:06:55 午後 org.jenkinsci.main.modules.sshd.SSHD start
+情報: Started SSHD at port 50643
+9 20, 2013 1:06:55 午後 jenkins.InitReactorRunner$1 onAttained
+情報: Completed initialization
+9 20, 2013 1:06:55 午後 hudson.TcpSlaveAgentListener <init>
+情報: JNLP slave agent listener started on TCP port 50644
+9 20, 2013 1:06:55 午後 hudson.WebAppMain$2 run
+情報: Jenkins is fully up and running
+9 20, 2013 1:58:12 午後 org.kohsuke.stapler.compression.CompressionFilter reportException
+WARNING: Untrapped servlet exception
+javax.servlet.ServletException: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"","name":"","refspec":""},"branches":{"name":""},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["hudson.plugins.git.util.DefaultBuildChooser","auto"],"buildChooser":{"stapler-class":"hudson.plugins.git.util.DefaultBuildChooser"},"gitTool":"Default"}
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:719)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.MetaClass$6.doDispatch(MetaClass.java:241)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:583)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:95)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:76)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:223)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:934)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:494)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1009)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:632)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1592)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1550)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"","name":"","refspec":""},"branches":{"name":""},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["hudson.plugins.git.util.DefaultBuildChooser","auto"],"buildChooser":{"stapler-class":"hudson.plugins.git.util.DefaultBuildChooser"},"gitTool":"Default"}
+	at hudson.model.Descriptor.newInstance(Descriptor.java:617)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1498)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1419)
+	at hudson.scm.SCMS.parseSCM(SCMS.java:63)
+	at hudson.model.AbstractProject.submit(AbstractProject.java:1949)
+	at hudson.model.Project.submit(Project.java:195)
+	at hudson.model.Job.doConfigSubmit(Job.java:1059)
+	at hudson.model.AbstractProject.doConfigSubmit(AbstractProject.java:758)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:288)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:151)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:90)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:111)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	... 47 more
+Caused by: hudson.plugins.git.GitException: Error creating repositories
+	at hudson.plugins.git.GitSCM$DescriptorImpl.createRepositoryConfigurations(GitSCM.java:1593)
+	at hudson.plugins.git.GitSCM.updateFromUserData(GitSCM.java:265)
+	at hudson.plugins.git.GitSCM.<init>(GitSCM.java:202)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.kohsuke.stapler.RequestImpl.invokeConstructor(RequestImpl.java:438)
+	at org.kohsuke.stapler.RequestImpl.access$200(RequestImpl.java:76)
+	at org.kohsuke.stapler.RequestImpl$TypePair.convertJSON(RequestImpl.java:594)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:391)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:387)
+	at hudson.model.Descriptor.newInstance(Descriptor.java:608)
+	... 64 more
+Caused by: java.net.URISyntaxException: Cannot parse Git URI-ish: The uri was empty or null
+	at org.eclipse.jgit.transport.URIish.<init>(URIish.java:205)
+	at org.eclipse.jgit.transport.RemoteConfig.<init>(RemoteConfig.java:174)
+	at org.eclipse.jgit.transport.RemoteConfig.getAllRemoteConfigs(RemoteConfig.java:124)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.createRepositoryConfigurations(GitSCM.java:1591)
+	... 76 more
+
+9 20, 2013 1:58:22 午後 org.kohsuke.stapler.compression.CompressionFilter reportException
+WARNING: Untrapped servlet exception
+javax.servlet.ServletException: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"","name":"","refspec":""},"branches":{"name":""},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["hudson.plugins.git.util.DefaultBuildChooser","auto"],"buildChooser":{"stapler-class":"hudson.plugins.git.util.DefaultBuildChooser"},"gitTool":"Default"}
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:719)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.MetaClass$6.doDispatch(MetaClass.java:241)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:583)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:95)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:76)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:223)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:934)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:494)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1009)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:632)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1592)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1550)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"","name":"","refspec":""},"branches":{"name":""},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["hudson.plugins.git.util.DefaultBuildChooser","auto"],"buildChooser":{"stapler-class":"hudson.plugins.git.util.DefaultBuildChooser"},"gitTool":"Default"}
+	at hudson.model.Descriptor.newInstance(Descriptor.java:617)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1498)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1419)
+	at hudson.scm.SCMS.parseSCM(SCMS.java:63)
+	at hudson.model.AbstractProject.submit(AbstractProject.java:1949)
+	at hudson.model.Project.submit(Project.java:195)
+	at hudson.model.Job.doConfigSubmit(Job.java:1059)
+	at hudson.model.AbstractProject.doConfigSubmit(AbstractProject.java:758)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:288)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:151)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:90)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:111)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	... 47 more
+Caused by: hudson.plugins.git.GitException: Error creating repositories
+	at hudson.plugins.git.GitSCM$DescriptorImpl.createRepositoryConfigurations(GitSCM.java:1593)
+	at hudson.plugins.git.GitSCM.updateFromUserData(GitSCM.java:265)
+	at hudson.plugins.git.GitSCM.<init>(GitSCM.java:202)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.kohsuke.stapler.RequestImpl.invokeConstructor(RequestImpl.java:438)
+	at org.kohsuke.stapler.RequestImpl.access$200(RequestImpl.java:76)
+	at org.kohsuke.stapler.RequestImpl$TypePair.convertJSON(RequestImpl.java:594)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:391)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:387)
+	at hudson.model.Descriptor.newInstance(Descriptor.java:608)
+	... 64 more
+Caused by: java.net.URISyntaxException: Cannot parse Git URI-ish: The uri was empty or null
+	at org.eclipse.jgit.transport.URIish.<init>(URIish.java:205)
+	at org.eclipse.jgit.transport.RemoteConfig.<init>(RemoteConfig.java:174)
+	at org.eclipse.jgit.transport.RemoteConfig.getAllRemoteConfigs(RemoteConfig.java:124)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.createRepositoryConfigurations(GitSCM.java:1591)
+	... 76 more
+
+9 20, 2013 3:49:28 午後 org.kohsuke.stapler.compression.CompressionFilter reportException
+WARNING: Untrapped servlet exception
+javax.servlet.ServletException: java.lang.RuntimeException: Failed to instantiate class hudson.triggers.SCMTrigger from {"scmpoll_spec":"*****","ignorePostCommitHooks":false}
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:719)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.MetaClass$6.doDispatch(MetaClass.java:241)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:583)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:95)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:76)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:223)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:934)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:494)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1009)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:632)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1592)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1550)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.RuntimeException: Failed to instantiate class hudson.triggers.SCMTrigger from {"scmpoll_spec":"*****","ignorePostCommitHooks":false}
+	at hudson.model.Descriptor.newInstance(Descriptor.java:617)
+	at hudson.model.AbstractProject.buildDescribable(AbstractProject.java:1981)
+	at hudson.model.AbstractProject.submit(AbstractProject.java:1953)
+	at hudson.model.Project.submit(Project.java:195)
+	at hudson.model.Job.doConfigSubmit(Job.java:1059)
+	at hudson.model.AbstractProject.doConfigSubmit(AbstractProject.java:758)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:288)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:151)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:90)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:111)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	... 47 more
+Caused by: java.lang.IllegalArgumentException: Failed to instantiate class hudson.triggers.SCMTrigger from {"scmpoll_spec":"*****","ignorePostCommitHooks":false}
+	at org.kohsuke.stapler.RequestImpl$TypePair.convertJSON(RequestImpl.java:596)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:391)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:387)
+	at hudson.model.Descriptor.newInstance(Descriptor.java:608)
+	... 62 more
+Caused by: java.lang.IllegalArgumentException: antlr.ANTLRException: 不正な入力: "*****": line 1:2: unexpected token: *
+	at org.kohsuke.stapler.RequestImpl.invokeConstructor(RequestImpl.java:453)
+	at org.kohsuke.stapler.RequestImpl.access$200(RequestImpl.java:76)
+	at org.kohsuke.stapler.RequestImpl$TypePair.convertJSON(RequestImpl.java:594)
+	... 65 more
+Caused by: antlr.ANTLRException: 不正な入力: "*****": line 1:2: unexpected token: *
+	at hudson.scheduler.CronTabList.create(CronTabList.java:87)
+	at hudson.scheduler.CronTabList.create(CronTabList.java:73)
+	at hudson.triggers.Trigger.<init>(Trigger.java:161)
+	at hudson.triggers.SCMTrigger.<init>(SCMTrigger.java:85)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.kohsuke.stapler.RequestImpl.invokeConstructor(RequestImpl.java:438)
+	... 67 more
+Caused by: line 1:2: unexpected token: *
+	at hudson.scheduler.CrontabParser.term(CrontabParser.java:291)
+	at hudson.scheduler.CrontabParser.expr(CrontabParser.java:180)
+	at hudson.scheduler.CrontabParser.startRule(CrontabParser.java:58)
+	at hudson.scheduler.CronTab.set(CronTab.java:93)
+	at hudson.scheduler.CronTab.<init>(CronTab.java:83)
+	at hudson.scheduler.CronTabList.create(CronTabList.java:85)
+	... 75 more
+
+9 20, 2013 3:49:53 午後 org.kohsuke.stapler.compression.CompressionFilter reportException
+WARNING: Untrapped servlet exception
+javax.servlet.ServletException: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"git@github.com:takayuki-okazawa/jenkins_and_tomcat8.git","name":"","refspec":""},"branches":{"name":"**"},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["","auto"],"gitTool":"Default"}
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:719)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.MetaClass$6.doDispatch(MetaClass.java:241)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:583)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:95)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:76)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:223)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:934)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:494)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1009)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:632)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1592)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1550)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"git@github.com:takayuki-okazawa/jenkins_and_tomcat8.git","name":"","refspec":""},"branches":{"name":"**"},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["","auto"],"gitTool":"Default"}
+	at hudson.model.Descriptor.newInstance(Descriptor.java:617)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1498)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1419)
+	at hudson.scm.SCMS.parseSCM(SCMS.java:63)
+	at hudson.model.AbstractProject.submit(AbstractProject.java:1949)
+	at hudson.model.Project.submit(Project.java:195)
+	at hudson.model.Job.doConfigSubmit(Job.java:1059)
+	at hudson.model.AbstractProject.doConfigSubmit(AbstractProject.java:758)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:288)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:151)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:90)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:111)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	... 47 more
+Caused by: java.lang.NullPointerException
+	at hudson.plugins.git.GitSCM.<init>(GitSCM.java:251)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.kohsuke.stapler.RequestImpl.invokeConstructor(RequestImpl.java:438)
+	at org.kohsuke.stapler.RequestImpl.access$200(RequestImpl.java:76)
+	at org.kohsuke.stapler.RequestImpl$TypePair.convertJSON(RequestImpl.java:594)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:391)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:387)
+	at hudson.model.Descriptor.newInstance(Descriptor.java:608)
+	... 64 more
+
+9 20, 2013 3:50:19 午後 org.kohsuke.stapler.compression.CompressionFilter reportException
+WARNING: Untrapped servlet exception
+javax.servlet.ServletException: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"git@github.com:takayuki-okazawa/jenkins_and_tomcat8.git","name":"","refspec":""},"branches":{"name":"**"},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["","auto"],"gitTool":"Default"}
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:719)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.MetaClass$6.doDispatch(MetaClass.java:241)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:583)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:95)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:76)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:223)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:934)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:494)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1009)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:632)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1592)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1550)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"git@github.com:takayuki-okazawa/jenkins_and_tomcat8.git","name":"","refspec":""},"branches":{"name":"**"},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["","auto"],"gitTool":"Default"}
+	at hudson.model.Descriptor.newInstance(Descriptor.java:617)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1498)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1419)
+	at hudson.scm.SCMS.parseSCM(SCMS.java:63)
+	at hudson.model.AbstractProject.submit(AbstractProject.java:1949)
+	at hudson.model.Project.submit(Project.java:195)
+	at hudson.model.Job.doConfigSubmit(Job.java:1059)
+	at hudson.model.AbstractProject.doConfigSubmit(AbstractProject.java:758)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:288)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:151)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:90)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:111)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	... 47 more
+Caused by: java.lang.NullPointerException
+	at hudson.plugins.git.GitSCM.<init>(GitSCM.java:251)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.kohsuke.stapler.RequestImpl.invokeConstructor(RequestImpl.java:438)
+	at org.kohsuke.stapler.RequestImpl.access$200(RequestImpl.java:76)
+	at org.kohsuke.stapler.RequestImpl$TypePair.convertJSON(RequestImpl.java:594)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:391)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:387)
+	at hudson.model.Descriptor.newInstance(Descriptor.java:608)
+	... 64 more
+
+9 20, 2013 3:50:30 午後 org.kohsuke.stapler.compression.CompressionFilter reportException
+WARNING: Untrapped servlet exception
+javax.servlet.ServletException: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"git@github.com:takayuki-okazawa/jenkins_and_tomcat8.git","name":"","refspec":""},"branches":{"name":"**"},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["","auto"],"gitTool":"Default"}
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:719)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.MetaClass$6.doDispatch(MetaClass.java:241)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:583)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:95)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:76)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:223)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:934)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:494)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1009)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:632)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1592)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1550)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"git@github.com:takayuki-okazawa/jenkins_and_tomcat8.git","name":"","refspec":""},"branches":{"name":"**"},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["","auto"],"gitTool":"Default"}
+	at hudson.model.Descriptor.newInstance(Descriptor.java:617)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1498)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1419)
+	at hudson.scm.SCMS.parseSCM(SCMS.java:63)
+	at hudson.model.AbstractProject.submit(AbstractProject.java:1949)
+	at hudson.model.Project.submit(Project.java:195)
+	at hudson.model.Job.doConfigSubmit(Job.java:1059)
+	at hudson.model.AbstractProject.doConfigSubmit(AbstractProject.java:758)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:288)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:151)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:90)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:111)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	... 47 more
+Caused by: java.lang.NullPointerException
+	at hudson.plugins.git.GitSCM.<init>(GitSCM.java:251)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.kohsuke.stapler.RequestImpl.invokeConstructor(RequestImpl.java:438)
+	at org.kohsuke.stapler.RequestImpl.access$200(RequestImpl.java:76)
+	at org.kohsuke.stapler.RequestImpl$TypePair.convertJSON(RequestImpl.java:594)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:391)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:387)
+	at hudson.model.Descriptor.newInstance(Descriptor.java:608)
+	... 64 more
+
+9 20, 2013 3:53:02 午後 org.kohsuke.stapler.compression.CompressionFilter reportException
+WARNING: Untrapped servlet exception
+javax.servlet.ServletException: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"https://github.com/takayuki-okazawa/jenkins_and_tomcat8","name":"","refspec":""},"branches":{"name":"**"},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["","auto"],"gitTool":"Default"}
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:719)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.MetaClass$6.doDispatch(MetaClass.java:241)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:583)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:95)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:76)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:223)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:934)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:494)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1009)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:632)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1592)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1550)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"https://github.com/takayuki-okazawa/jenkins_and_tomcat8","name":"","refspec":""},"branches":{"name":"**"},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["","auto"],"gitTool":"Default"}
+	at hudson.model.Descriptor.newInstance(Descriptor.java:617)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1498)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1419)
+	at hudson.scm.SCMS.parseSCM(SCMS.java:63)
+	at hudson.model.AbstractProject.submit(AbstractProject.java:1949)
+	at hudson.model.Project.submit(Project.java:195)
+	at hudson.model.Job.doConfigSubmit(Job.java:1059)
+	at hudson.model.AbstractProject.doConfigSubmit(AbstractProject.java:758)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:288)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:151)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:90)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:111)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	... 47 more
+Caused by: java.lang.NullPointerException
+	at hudson.plugins.git.GitSCM.<init>(GitSCM.java:251)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.kohsuke.stapler.RequestImpl.invokeConstructor(RequestImpl.java:438)
+	at org.kohsuke.stapler.RequestImpl.access$200(RequestImpl.java:76)
+	at org.kohsuke.stapler.RequestImpl$TypePair.convertJSON(RequestImpl.java:594)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:391)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:387)
+	at hudson.model.Descriptor.newInstance(Descriptor.java:608)
+	... 64 more
+
+9 20, 2013 3:56:33 午後 org.kohsuke.stapler.compression.CompressionFilter reportException
+WARNING: Untrapped servlet exception
+javax.servlet.ServletException: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"git@github.com:takayuki-okazawa/jenkins_and_tomcat8","name":"","refspec":""},"branches":{"name":"**"},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["","auto"],"gitTool":"Default"}
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:719)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.MetaClass$6.doDispatch(MetaClass.java:241)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:583)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:95)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:76)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:223)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:934)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:494)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1009)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:632)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1592)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1550)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"git@github.com:takayuki-okazawa/jenkins_and_tomcat8","name":"","refspec":""},"branches":{"name":"**"},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["","auto"],"gitTool":"Default"}
+	at hudson.model.Descriptor.newInstance(Descriptor.java:617)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1498)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1419)
+	at hudson.scm.SCMS.parseSCM(SCMS.java:63)
+	at hudson.model.AbstractProject.submit(AbstractProject.java:1949)
+	at hudson.model.Project.submit(Project.java:195)
+	at hudson.model.Job.doConfigSubmit(Job.java:1059)
+	at hudson.model.AbstractProject.doConfigSubmit(AbstractProject.java:758)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:288)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:151)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:90)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:111)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	... 47 more
+Caused by: java.lang.NullPointerException
+	at hudson.plugins.git.GitSCM.<init>(GitSCM.java:251)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.kohsuke.stapler.RequestImpl.invokeConstructor(RequestImpl.java:438)
+	at org.kohsuke.stapler.RequestImpl.access$200(RequestImpl.java:76)
+	at org.kohsuke.stapler.RequestImpl$TypePair.convertJSON(RequestImpl.java:594)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:391)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:387)
+	at hudson.model.Descriptor.newInstance(Descriptor.java:608)
+	... 64 more
+
+9 20, 2013 4:40:09 午後 org.kohsuke.stapler.compression.CompressionFilter reportException
+WARNING: Untrapped servlet exception
+javax.servlet.ServletException: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"git@github.com:takayuki-okazawa/game-of-life.git","name":"","refspec":""},"branches":{"name":"**"},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["","auto"],"gitTool":"Default"}
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:719)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.MetaClass$6.doDispatch(MetaClass.java:241)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:583)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:95)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:76)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:223)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:934)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:494)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1009)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:632)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1592)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1550)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"git@github.com:takayuki-okazawa/game-of-life.git","name":"","refspec":""},"branches":{"name":"**"},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["","auto"],"gitTool":"Default"}
+	at hudson.model.Descriptor.newInstance(Descriptor.java:617)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1498)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1419)
+	at hudson.scm.SCMS.parseSCM(SCMS.java:63)
+	at hudson.model.AbstractProject.submit(AbstractProject.java:1949)
+	at hudson.model.Project.submit(Project.java:195)
+	at hudson.model.Job.doConfigSubmit(Job.java:1059)
+	at hudson.model.AbstractProject.doConfigSubmit(AbstractProject.java:758)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:288)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:151)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:90)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:111)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	... 47 more
+Caused by: java.lang.NullPointerException
+	at hudson.plugins.git.GitSCM.<init>(GitSCM.java:251)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.kohsuke.stapler.RequestImpl.invokeConstructor(RequestImpl.java:438)
+	at org.kohsuke.stapler.RequestImpl.access$200(RequestImpl.java:76)
+	at org.kohsuke.stapler.RequestImpl$TypePair.convertJSON(RequestImpl.java:594)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:391)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:387)
+	at hudson.model.Descriptor.newInstance(Descriptor.java:608)
+	... 64 more
+
+9 20, 2013 4:40:23 午後 org.kohsuke.stapler.compression.CompressionFilter reportException
+WARNING: Untrapped servlet exception
+javax.servlet.ServletException: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"git@github.com:takayuki-okazawa:jenkins_and_tomcat8.git","name":"","refspec":""},"branches":{"name":"**"},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["","auto"],"gitTool":"Default"}
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:719)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.MetaClass$6.doDispatch(MetaClass.java:241)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:583)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:95)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:76)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:223)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:934)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:494)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1009)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:632)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1592)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1550)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"git@github.com:takayuki-okazawa:jenkins_and_tomcat8.git","name":"","refspec":""},"branches":{"name":"**"},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["","auto"],"gitTool":"Default"}
+	at hudson.model.Descriptor.newInstance(Descriptor.java:617)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1498)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1419)
+	at hudson.scm.SCMS.parseSCM(SCMS.java:63)
+	at hudson.model.AbstractProject.submit(AbstractProject.java:1949)
+	at hudson.model.Project.submit(Project.java:195)
+	at hudson.model.Job.doConfigSubmit(Job.java:1059)
+	at hudson.model.AbstractProject.doConfigSubmit(AbstractProject.java:758)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:288)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:151)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:90)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:111)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	... 47 more
+Caused by: java.lang.NullPointerException
+	at hudson.plugins.git.GitSCM.<init>(GitSCM.java:251)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.kohsuke.stapler.RequestImpl.invokeConstructor(RequestImpl.java:438)
+	at org.kohsuke.stapler.RequestImpl.access$200(RequestImpl.java:76)
+	at org.kohsuke.stapler.RequestImpl$TypePair.convertJSON(RequestImpl.java:594)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:391)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:387)
+	at hudson.model.Descriptor.newInstance(Descriptor.java:608)
+	... 64 more
+
+9 20, 2013 4:41:54 午後 org.kohsuke.stapler.compression.CompressionFilter reportException
+WARNING: Untrapped servlet exception
+javax.servlet.ServletException: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"https://github.com/takayuki-okazawa/jenkins_and_tomcat8","name":"","refspec":""},"branches":{"name":"**"},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["","auto"],"gitTool":"Default"}
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:719)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.MetaClass$6.doDispatch(MetaClass.java:241)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:583)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:95)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:76)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:223)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:934)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:494)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1009)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:632)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1592)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1550)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"https://github.com/takayuki-okazawa/jenkins_and_tomcat8","name":"","refspec":""},"branches":{"name":"**"},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["","auto"],"gitTool":"Default"}
+	at hudson.model.Descriptor.newInstance(Descriptor.java:617)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1498)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1419)
+	at hudson.scm.SCMS.parseSCM(SCMS.java:63)
+	at hudson.model.AbstractProject.submit(AbstractProject.java:1949)
+	at hudson.model.Project.submit(Project.java:195)
+	at hudson.model.Job.doConfigSubmit(Job.java:1059)
+	at hudson.model.AbstractProject.doConfigSubmit(AbstractProject.java:758)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:288)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:151)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:90)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:111)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	... 47 more
+Caused by: java.lang.NullPointerException
+	at hudson.plugins.git.GitSCM.<init>(GitSCM.java:251)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.kohsuke.stapler.RequestImpl.invokeConstructor(RequestImpl.java:438)
+	at org.kohsuke.stapler.RequestImpl.access$200(RequestImpl.java:76)
+	at org.kohsuke.stapler.RequestImpl$TypePair.convertJSON(RequestImpl.java:594)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:391)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:387)
+	at hudson.model.Descriptor.newInstance(Descriptor.java:608)
+	... 64 more
+
+9 20, 2013 4:42:02 午後 org.kohsuke.stapler.compression.CompressionFilter reportException
+WARNING: Untrapped servlet exception
+javax.servlet.ServletException: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"git@github.com:takayuki-okazawa/jenkins_and_tomcat8.git","name":"","refspec":""},"branches":{"name":"**"},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["","auto"],"gitTool":"Default"}
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:719)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.MetaClass$6.doDispatch(MetaClass.java:241)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:583)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:95)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:76)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:223)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:934)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:494)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1009)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:632)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1592)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1550)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.RuntimeException: Failed to instantiate class hudson.plugins.git.GitSCM from {"value":"2","userRemoteConfigs":{"url":"git@github.com:takayuki-okazawa/jenkins_and_tomcat8.git","name":"","refspec":""},"branches":{"name":"**"},"includedRegions":"","excludedRegions":"","excludedUsers":"","localBranch":"","relativeTargetDir":"","reference":"","scmName":"","gitConfigName":"","gitConfigEmail":"","pruneBranches":false,"skipTag":false,"clean":false,"remotePoll":false,"disableSubmodules":false,"recursiveSubmodules":false,"authorOrCommitter":false,"wipeOutWorkspace":false,"ignoreNotifyCommit":false,"useShallowClone":false,"":["","auto"],"gitTool":"Default"}
+	at hudson.model.Descriptor.newInstance(Descriptor.java:617)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1498)
+	at hudson.plugins.git.GitSCM$DescriptorImpl.newInstance(GitSCM.java:1419)
+	at hudson.scm.SCMS.parseSCM(SCMS.java:63)
+	at hudson.model.AbstractProject.submit(AbstractProject.java:1949)
+	at hudson.model.Project.submit(Project.java:195)
+	at hudson.model.Job.doConfigSubmit(Job.java:1059)
+	at hudson.model.AbstractProject.doConfigSubmit(AbstractProject.java:758)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:288)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:151)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:90)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:111)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	... 47 more
+Caused by: java.lang.NullPointerException
+	at hudson.plugins.git.GitSCM.<init>(GitSCM.java:251)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.kohsuke.stapler.RequestImpl.invokeConstructor(RequestImpl.java:438)
+	at org.kohsuke.stapler.RequestImpl.access$200(RequestImpl.java:76)
+	at org.kohsuke.stapler.RequestImpl$TypePair.convertJSON(RequestImpl.java:594)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:391)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:387)
+	at hudson.model.Descriptor.newInstance(Descriptor.java:608)
+	... 64 more
+
+9 20, 2013 4:47:40 午後 org.kohsuke.stapler.compression.CompressionFilter reportException
+WARNING: Untrapped servlet exception
+javax.servlet.ServletException: java.lang.RuntimeException: Failed to instantiate class hudson.triggers.SCMTrigger from {"scmpoll_spec":"*****","ignorePostCommitHooks":false}
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:719)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.MetaClass$6.doDispatch(MetaClass.java:241)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:583)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:95)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:76)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:223)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:934)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:494)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1009)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:632)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1592)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1550)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.RuntimeException: Failed to instantiate class hudson.triggers.SCMTrigger from {"scmpoll_spec":"*****","ignorePostCommitHooks":false}
+	at hudson.model.Descriptor.newInstance(Descriptor.java:617)
+	at hudson.model.AbstractProject.buildDescribable(AbstractProject.java:1981)
+	at hudson.model.AbstractProject.submit(AbstractProject.java:1953)
+	at hudson.model.Project.submit(Project.java:195)
+	at hudson.model.Job.doConfigSubmit(Job.java:1059)
+	at hudson.model.AbstractProject.doConfigSubmit(AbstractProject.java:758)
+	at sun.reflect.GeneratedMethodAccessor208.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:288)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:151)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:90)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:111)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	... 47 more
+Caused by: java.lang.IllegalArgumentException: Failed to instantiate class hudson.triggers.SCMTrigger from {"scmpoll_spec":"*****","ignorePostCommitHooks":false}
+	at org.kohsuke.stapler.RequestImpl$TypePair.convertJSON(RequestImpl.java:596)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:391)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:387)
+	at hudson.model.Descriptor.newInstance(Descriptor.java:608)
+	... 61 more
+Caused by: java.lang.IllegalArgumentException: antlr.ANTLRException: 不正な入力: "*****": line 1:2: unexpected token: *
+	at org.kohsuke.stapler.RequestImpl.invokeConstructor(RequestImpl.java:453)
+	at org.kohsuke.stapler.RequestImpl.access$200(RequestImpl.java:76)
+	at org.kohsuke.stapler.RequestImpl$TypePair.convertJSON(RequestImpl.java:594)
+	... 64 more
+Caused by: antlr.ANTLRException: 不正な入力: "*****": line 1:2: unexpected token: *
+	at hudson.scheduler.CronTabList.create(CronTabList.java:87)
+	at hudson.scheduler.CronTabList.create(CronTabList.java:73)
+	at hudson.triggers.Trigger.<init>(Trigger.java:161)
+	at hudson.triggers.SCMTrigger.<init>(SCMTrigger.java:85)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.kohsuke.stapler.RequestImpl.invokeConstructor(RequestImpl.java:438)
+	... 66 more
+Caused by: line 1:2: unexpected token: *
+	at hudson.scheduler.CrontabParser.term(CrontabParser.java:291)
+	at hudson.scheduler.CrontabParser.expr(CrontabParser.java:180)
+	at hudson.scheduler.CrontabParser.startRule(CrontabParser.java:58)
+	at hudson.scheduler.CronTab.set(CronTab.java:93)
+	at hudson.scheduler.CronTab.<init>(CronTab.java:83)
+	at hudson.scheduler.CronTabList.create(CronTabList.java:85)
+	... 74 more
+
+9 20, 2013 4:48:49 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #2
+9 20, 2013 4:49:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #3
+9 20, 2013 4:50:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #4
+9 20, 2013 4:51:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #5
+9 20, 2013 4:51:53 午後 hudson.model.AbstractBuild$AbstractBuildExecution performAllBuildSteps
+WARNING: Publisher hudson.tasks.Mailer aborted due to exception
+java.lang.NullPointerException
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:942)
+	at hudson.tasks.Mailer.perform(Mailer.java:114)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:776)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:726)
+	at hudson.model.Run.execute(Run.java:1618)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:242)
+
+9 20, 2013 4:52:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #6
+9 20, 2013 4:52:53 午後 hudson.model.AbstractBuild$AbstractBuildExecution performAllBuildSteps
+WARNING: Publisher hudson.tasks.Mailer aborted due to exception
+java.lang.NullPointerException
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:942)
+	at hudson.tasks.Mailer.perform(Mailer.java:114)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:776)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:726)
+	at hudson.model.Run.execute(Run.java:1618)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:242)
+
+9 20, 2013 4:53:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #7
+9 20, 2013 4:53:53 午後 hudson.model.AbstractBuild$AbstractBuildExecution performAllBuildSteps
+WARNING: Publisher hudson.tasks.Mailer aborted due to exception
+java.lang.NullPointerException
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:942)
+	at hudson.tasks.Mailer.perform(Mailer.java:114)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:776)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:726)
+	at hudson.model.Run.execute(Run.java:1618)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:242)
+
+9 20, 2013 4:54:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #8
+9 20, 2013 4:54:54 午後 hudson.model.AbstractBuild$AbstractBuildExecution performAllBuildSteps
+WARNING: Publisher hudson.tasks.Mailer aborted due to exception
+java.lang.NullPointerException
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:942)
+	at hudson.tasks.Mailer.perform(Mailer.java:114)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:776)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:726)
+	at hudson.model.Run.execute(Run.java:1618)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:242)
+
+9 20, 2013 4:55:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #9
+9 20, 2013 4:55:53 午後 hudson.model.AbstractBuild$AbstractBuildExecution performAllBuildSteps
+WARNING: Publisher hudson.tasks.Mailer aborted due to exception
+java.lang.NullPointerException
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:942)
+	at hudson.tasks.Mailer.perform(Mailer.java:114)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:776)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:726)
+	at hudson.model.Run.execute(Run.java:1618)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:242)
+
+9 20, 2013 4:56:41 午後 hudson.model.AsyncPeriodicWork$1 run
+情報: Started Fingerprint cleanup
+9 20, 2013 4:56:41 午後 hudson.model.FingerprintCleanupThread execute
+情報: Cleaned up 0 records
+9 20, 2013 4:56:41 午後 hudson.model.AsyncPeriodicWork$1 run
+情報: Finished Fingerprint cleanup. 1 ms
+9 20, 2013 4:56:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #10
+9 20, 2013 4:56:53 午後 hudson.model.AbstractBuild$AbstractBuildExecution performAllBuildSteps
+WARNING: Publisher hudson.tasks.Mailer aborted due to exception
+java.lang.NullPointerException
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:942)
+	at hudson.tasks.Mailer.perform(Mailer.java:114)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:776)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:726)
+	at hudson.model.Run.execute(Run.java:1618)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:242)
+
+9 20, 2013 4:57:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #11
+9 20, 2013 4:57:53 午後 hudson.model.AbstractBuild$AbstractBuildExecution performAllBuildSteps
+WARNING: Publisher hudson.tasks.Mailer aborted due to exception
+java.lang.NullPointerException
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:942)
+	at hudson.tasks.Mailer.perform(Mailer.java:114)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:776)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:726)
+	at hudson.model.Run.execute(Run.java:1618)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:242)
+
+9 20, 2013 4:58:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #12
+9 20, 2013 4:58:53 午後 hudson.model.AbstractBuild$AbstractBuildExecution performAllBuildSteps
+WARNING: Publisher hudson.tasks.Mailer aborted due to exception
+java.lang.NullPointerException
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:942)
+	at hudson.tasks.Mailer.perform(Mailer.java:114)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:776)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:726)
+	at hudson.model.Run.execute(Run.java:1618)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:242)
+
+9 20, 2013 4:59:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #13
+9 20, 2013 4:59:53 午後 hudson.model.AbstractBuild$AbstractBuildExecution performAllBuildSteps
+WARNING: Publisher hudson.tasks.Mailer aborted due to exception
+java.lang.NullPointerException
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:942)
+	at hudson.tasks.Mailer.perform(Mailer.java:114)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:776)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:726)
+	at hudson.model.Run.execute(Run.java:1618)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:242)
+
+9 20, 2013 5:00:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #14
+9 20, 2013 5:00:53 午後 hudson.model.AbstractBuild$AbstractBuildExecution performAllBuildSteps
+WARNING: Publisher hudson.tasks.Mailer aborted due to exception
+java.lang.NullPointerException
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:942)
+	at hudson.tasks.Mailer.perform(Mailer.java:114)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:776)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:726)
+	at hudson.model.Run.execute(Run.java:1618)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:242)
+
+9 20, 2013 5:01:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #15
+9 20, 2013 5:01:53 午後 hudson.model.AbstractBuild$AbstractBuildExecution performAllBuildSteps
+WARNING: Publisher hudson.tasks.Mailer aborted due to exception
+java.lang.NullPointerException
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:942)
+	at hudson.tasks.Mailer.perform(Mailer.java:114)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:776)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:726)
+	at hudson.model.Run.execute(Run.java:1618)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:242)
+
+9 20, 2013 5:02:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #16
+9 20, 2013 5:02:53 午後 hudson.model.AbstractBuild$AbstractBuildExecution performAllBuildSteps
+WARNING: Publisher hudson.tasks.Mailer aborted due to exception
+java.lang.NullPointerException
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:942)
+	at hudson.tasks.Mailer.perform(Mailer.java:114)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:776)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:726)
+	at hudson.model.Run.execute(Run.java:1618)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:242)
+
+9 20, 2013 5:03:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #17
+9 20, 2013 5:03:53 午後 hudson.model.AbstractBuild$AbstractBuildExecution performAllBuildSteps
+WARNING: Publisher hudson.tasks.Mailer aborted due to exception
+java.lang.NullPointerException
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:942)
+	at hudson.tasks.Mailer.perform(Mailer.java:114)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:776)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:726)
+	at hudson.model.Run.execute(Run.java:1618)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:242)
+
+9 20, 2013 5:04:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #18
+9 20, 2013 5:04:53 午後 hudson.model.AbstractBuild$AbstractBuildExecution performAllBuildSteps
+WARNING: Publisher hudson.tasks.Mailer aborted due to exception
+java.lang.NullPointerException
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:942)
+	at hudson.tasks.Mailer.perform(Mailer.java:114)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:776)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:726)
+	at hudson.model.Run.execute(Run.java:1618)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:242)
+
+9 20, 2013 5:05:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #19
+9 20, 2013 5:05:53 午後 hudson.model.AbstractBuild$AbstractBuildExecution performAllBuildSteps
+WARNING: Publisher hudson.tasks.Mailer aborted due to exception
+java.lang.NullPointerException
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:942)
+	at hudson.tasks.Mailer.perform(Mailer.java:114)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:776)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:726)
+	at hudson.model.Run.execute(Run.java:1618)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:242)
+
+9 20, 2013 5:06:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #20
+9 20, 2013 5:06:54 午後 hudson.model.AbstractBuild$AbstractBuildExecution performAllBuildSteps
+WARNING: Publisher hudson.tasks.Mailer aborted due to exception
+java.lang.NullPointerException
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:942)
+	at hudson.tasks.Mailer.perform(Mailer.java:114)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:776)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:726)
+	at hudson.model.Run.execute(Run.java:1618)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:242)
+
+9 20, 2013 5:07:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #21
+9 20, 2013 5:07:53 午後 hudson.model.AbstractBuild$AbstractBuildExecution performAllBuildSteps
+WARNING: Publisher hudson.tasks.Mailer aborted due to exception
+java.lang.NullPointerException
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:942)
+	at hudson.tasks.Mailer.perform(Mailer.java:114)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:776)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:726)
+	at hudson.model.Run.execute(Run.java:1618)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:242)
+
+9 20, 2013 5:10:10 午後 org.kohsuke.stapler.compression.CompressionFilter reportException
+WARNING: Untrapped servlet exception
+javax.servlet.ServletException: java.lang.RuntimeException: Failed to instantiate class hudson.triggers.SCMTrigger from {"scmpoll_spec":"M * * * *","ignorePostCommitHooks":false}
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:719)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.MetaClass$6.doDispatch(MetaClass.java:241)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:770)
+	at org.kohsuke.stapler.Stapler.invoke(Stapler.java:583)
+	at org.kohsuke.stapler.Stapler.service(Stapler.java:214)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:91)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.PluginServletFilter$1.doFilter(PluginServletFilter.java:95)
+	at hudson.util.PluginServletFilter.doFilter(PluginServletFilter.java:87)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.csrf.CrumbFilter.doFilter(CrumbFilter.java:48)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.security.ChainedServletFilter$1.doFilter(ChainedServletFilter.java:84)
+	at hudson.security.ChainedServletFilter.doFilter(ChainedServletFilter.java:76)
+	at hudson.security.HudsonFilter.doFilter(HudsonFilter.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.kohsuke.stapler.compression.CompressionFilter.doFilter(CompressionFilter.java:50)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at hudson.util.CharacterEncodingFilter.doFilter(CharacterEncodingFilter.java:81)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:223)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:107)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:155)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:75)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:934)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:90)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:494)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1009)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:632)
+	at org.apache.coyote.http11.Http11NioProtocol$Http11ConnectionHandler.process(Http11NioProtocol.java:223)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1592)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1550)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: java.lang.RuntimeException: Failed to instantiate class hudson.triggers.SCMTrigger from {"scmpoll_spec":"M * * * *","ignorePostCommitHooks":false}
+	at hudson.model.Descriptor.newInstance(Descriptor.java:617)
+	at hudson.model.AbstractProject.buildDescribable(AbstractProject.java:1981)
+	at hudson.model.AbstractProject.submit(AbstractProject.java:1953)
+	at hudson.model.Project.submit(Project.java:195)
+	at hudson.model.Job.doConfigSubmit(Job.java:1059)
+	at hudson.model.AbstractProject.doConfigSubmit(AbstractProject.java:758)
+	at sun.reflect.GeneratedMethodAccessor208.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.kohsuke.stapler.Function$InstanceFunction.invoke(Function.java:288)
+	at org.kohsuke.stapler.Function.bindAndInvoke(Function.java:151)
+	at org.kohsuke.stapler.Function.bindAndInvokeAndServeResponse(Function.java:90)
+	at org.kohsuke.stapler.MetaClass$1.doDispatch(MetaClass.java:111)
+	at org.kohsuke.stapler.NameBasedDispatcher.dispatch(NameBasedDispatcher.java:53)
+	at org.kohsuke.stapler.Stapler.tryInvoke(Stapler.java:677)
+	... 47 more
+Caused by: java.lang.IllegalArgumentException: Failed to instantiate class hudson.triggers.SCMTrigger from {"scmpoll_spec":"M * * * *","ignorePostCommitHooks":false}
+	at org.kohsuke.stapler.RequestImpl$TypePair.convertJSON(RequestImpl.java:596)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:391)
+	at org.kohsuke.stapler.RequestImpl.bindJSON(RequestImpl.java:387)
+	at hudson.model.Descriptor.newInstance(Descriptor.java:608)
+	... 61 more
+Caused by: java.lang.IllegalArgumentException: antlr.ANTLRException: 不正な入力: "M * * * *": line 1:1: unexpected char: 'M'
+	at org.kohsuke.stapler.RequestImpl.invokeConstructor(RequestImpl.java:453)
+	at org.kohsuke.stapler.RequestImpl.access$200(RequestImpl.java:76)
+	at org.kohsuke.stapler.RequestImpl$TypePair.convertJSON(RequestImpl.java:594)
+	... 64 more
+Caused by: antlr.ANTLRException: 不正な入力: "M * * * *": line 1:1: unexpected char: 'M'
+	at hudson.scheduler.CronTabList.create(CronTabList.java:87)
+	at hudson.scheduler.CronTabList.create(CronTabList.java:73)
+	at hudson.triggers.Trigger.<init>(Trigger.java:161)
+	at hudson.triggers.SCMTrigger.<init>(SCMTrigger.java:85)
+	at sun.reflect.GeneratedConstructorAccessor88.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.kohsuke.stapler.RequestImpl.invokeConstructor(RequestImpl.java:438)
+	... 66 more
+Caused by: line 1:1: unexpected char: 'M'
+	at hudson.scheduler.CrontabLexer.nextToken(CrontabLexer.java:184)
+	at antlr.TokenBuffer.fill(TokenBuffer.java:69)
+	at antlr.TokenBuffer.LA(TokenBuffer.java:80)
+	at antlr.LLkParser.LA(LLkParser.java:52)
+	at hudson.scheduler.CrontabParser.startRule(CrontabParser.java:53)
+	at hudson.scheduler.CronTab.set(CronTab.java:93)
+	at hudson.scheduler.CronTab.<init>(CronTab.java:83)
+	at hudson.scheduler.CronTabList.create(CronTabList.java:85)
+	... 73 more
+
+9 20, 2013 5:10:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #22
+9 20, 2013 5:10:53 午後 hudson.model.AbstractBuild$AbstractBuildExecution performAllBuildSteps
+WARNING: Publisher hudson.tasks.Mailer aborted due to exception
+java.lang.NullPointerException
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:942)
+	at hudson.tasks.Mailer.perform(Mailer.java:114)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:776)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:726)
+	at hudson.model.Run.execute(Run.java:1618)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:242)
+
+9 20, 2013 5:11:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #23
+9 20, 2013 5:11:53 午後 hudson.model.AbstractBuild$AbstractBuildExecution performAllBuildSteps
+WARNING: Publisher hudson.tasks.Mailer aborted due to exception
+java.lang.NullPointerException
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:942)
+	at hudson.tasks.Mailer.perform(Mailer.java:114)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:776)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:726)
+	at hudson.model.Run.execute(Run.java:1618)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:242)
+
+9 20, 2013 5:12:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #24
+9 20, 2013 5:12:53 午後 hudson.model.AbstractBuild$AbstractBuildExecution performAllBuildSteps
+WARNING: Publisher hudson.tasks.Mailer aborted due to exception
+java.lang.NullPointerException
+	at hudson.model.AbstractBuild.getEnvironment(AbstractBuild.java:942)
+	at hudson.tasks.Mailer.perform(Mailer.java:114)
+	at hudson.tasks.BuildStepMonitor$1.perform(BuildStepMonitor.java:19)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.perform(AbstractBuild.java:804)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.performAllBuildSteps(AbstractBuild.java:776)
+	at hudson.model.Build$BuildExecution.post2(Build.java:183)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.post(AbstractBuild.java:726)
+	at hudson.model.Run.execute(Run.java:1618)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:242)
+
+9 20, 2013 5:13:48 午後 hudson.triggers.SCMTrigger$Runner run
+情報: SCM changes detected in test. Triggering  #25
+9 20, 2013 5:14:48 午後 hudson.model.Run execute
+情報: test #25 main build action completed: SUCCESS
